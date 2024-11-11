@@ -40,7 +40,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 ```
 npm install prisma --save-dev
 npx prisma init         # create prisma folder and needed files
-npm run dev
-npx prisma generate     # needed after every change in schema.prisma
+npx prisma migrate dev  # needed after every change in schema.prisma
+npx prisma generate     # setup prisma client
 npx prisma studio       # GUI for database, need to restart after every change in schema.prisma
 ```
